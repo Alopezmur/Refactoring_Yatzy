@@ -19,7 +19,6 @@ class Yatzy:
         for dice in throw:
             if dice == 1:
                 sum += 1
-
         return sum
 
     @staticmethod
