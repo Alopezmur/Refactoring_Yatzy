@@ -5,9 +5,6 @@ from yatzy_refactorizado import Yatzy
 
 
 def test_chance_scores_sum_of_all_dice():
-    pytestexpected = 15
-    actual = Yatzy.chance(2, 3, 4, 5, 1)
-    assert expected == actual
     assert 16 == Yatzy.chance(3, 3, 4, 5, 1)
 
 
