@@ -22,7 +22,7 @@ class Yatzy:
         return sum
 
     @staticmethod
-    def twos(d1,  d2,  d3,  d4,  d5):
+    def twos(*throw):
         sum = 0
         if (d1 == 2):
             sum += 2
