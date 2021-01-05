@@ -5,7 +5,7 @@ from yatzy_refactorizado import Yatzy
 
 
 def test_chance():
-    assert 7 == Yatzy.chance(1, 1, 2, 5, 3)
+    assert 7 == Yatzy.chance(1, 1, 2, 1, 2)
     assert 23 == Yatzy.chance(5, 5, 4, 6, 3)
     assert 16 == Yatzy.chance(3, 3, 4, 5, 1)
 
