@@ -30,19 +30,12 @@ class Yatzy:
         return score
 
     @staticmethod
-    def threes(d1,  d2,  d3,  d4,  d5):
-        s = 0
-        if (d1 == 3):
-            s += 3
-        if (d2 == 3):
-            s += 3
-        if (d3 == 3):
-            s += 3
-        if (d4 == 3):
-            s += 3
-        if (d5 == 3):
-            s += 3
-        return s
+    def threes(*throw):
+        score = 0
+        for dice in throw:
+            if dice == 3:
+                score += 3
+        return score
 
     def __init__(self, d1, d2, d3, d4, _5):
         self.dice = [0]*5
