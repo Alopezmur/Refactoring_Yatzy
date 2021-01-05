@@ -15,19 +15,19 @@ class Yatzy:
 
     @staticmethod
     def ones(*throw):
-        sum = 0
+        score = 0
         for dice in throw:
             if dice == 1:
-                sum += 1
-        return sum
+                score += 1
+        return score
 
     @staticmethod
     def twos(*throw):
-        sum = 0
+        score = 0
         for dice in throw:
             if dice == 2:
-                sum += 2
-        return sum
+                score += 2
+        return score
 
     @staticmethod
     def threes(d1,  d2,  d3,  d4,  d5):
