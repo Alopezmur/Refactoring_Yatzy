@@ -8,9 +8,9 @@ class Yatzy:
         return score
 
     @staticmethod
-    def yatzy(dice):
-        counts = [0]*(len(dice)+1)
-        for die in dice:
+    def yatzy(throw):
+        counts = [0]*(len(throw)+1)
+        for die in throw:
             counts[die-1] += 1
         for i in range(len(counts)):
             if counts[i] == 5:
