@@ -23,6 +23,7 @@ def test_ones():
 
 
 def test_twos():
+    assert 6 == Yatzy.twos(1, 2, 2, 2, 3)
     assert 4 == Yatzy.twos(1, 2, 3, 2, 6)
     assert 10 == Yatzy.twos(2, 2, 2, 2, 2)
 
