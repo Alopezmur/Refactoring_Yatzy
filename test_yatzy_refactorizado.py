@@ -15,7 +15,7 @@ def test_yatzy():
     assert 0 == Yatzy.yatzy([6, 6, 6, 6, 3])
 
 
-def test_1s():
+def test_ones():
     assert Yatzy.ones(1, 2, 3, 4, 5) == 1
     assert 2 == Yatzy.ones(1, 2, 1, 4, 5)
     assert 0 == Yatzy.ones(6, 2, 2, 4, 5)
