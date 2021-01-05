@@ -16,16 +16,9 @@ class Yatzy:
     @staticmethod
     def ones(*throw):
         sum = 0
-        if (d1 == 1):
-            sum += 1
-        if (d2 == 1):
-            sum += 1
-        if (d3 == 1):
-            sum += 1
-        if (d4 == 1):
-            sum += 1
-        if (d5 == 1):
-            sum += 1
+        for dice in throw:
+            if dice == 1:
+                sum += 1
 
         return sum
 
